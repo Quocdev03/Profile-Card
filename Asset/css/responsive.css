@@ -1,0 +1,147 @@
+/* >= Tablet */
+@media (max-width: 740px) {
+  .card {
+    height: 480px;
+    width: 500px;
+    margin: 0 20px;
+  }
+
+  .content-detail {
+    transform: translateY(0);
+  }
+
+  .card-img {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .card {
+    height: 480px;
+    width: 500px;
+    margin: 0 20px;
+  }
+
+  .content-detail {
+    transform: translateY(0);
+  }
+
+  .card-img {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+/* PC medium resolution > */
+@media (min-width: 1113px) {
+  /* .card {
+    height: 480px;
+    width: 500px;
+    margin: 0 20px;
+  }
+
+  .content-detail {
+    transform: translateY(0);
+  }
+
+  .card-img {
+    width: 170px;
+    height: 170px;
+  } */
+}
+
+/* > PC low resolution */
+@media (min-width: 1024px) {
+  /* .card {
+    height: 480px;
+    width: 500px;
+    margin: 0 20px;
+  }
+
+  .content-detail {
+    transform: translateY(0);
+  }
+
+  .card-img {
+    width: 170px;
+    height: 170px;
+  } */
+
+  .card {
+    position: relative;
+    width: 450px;
+    height: 200px;
+  }
+
+  .card:hover {
+    height: 480px;
+    width: 500px;
+  }
+
+  .card-img {
+    position: absolute;
+    left: 50%;
+    top: -60px;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 130px;
+    overflow: hidden;
+  }
+
+  .card:hover .card-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .content-detail {
+    width: 100%;
+    transform: 0.5s;
+    transform: translateY(220px);
+  }
+
+  .card:hover .content-detail {
+    transform: translateY(0px);
+  }
+}
+
+/* Pc */
+@media (min-width: 1239px) {
+  .card {
+    position: relative;
+    width: 450px;
+    height: 200px;
+  }
+
+  .card:hover {
+    height: 480px;
+    width: 500px;
+  }
+
+  .card-img {
+    position: absolute;
+    left: 50%;
+    top: -60px;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 130px;
+    overflow: hidden;
+  }
+
+  .card:hover .card-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .content-detail {
+    width: 100%;
+    transform: 0.5s;
+    transform: translateY(220px);
+  }
+
+  .card:hover .content-detail {
+    transform: translateY(0px);
+  }
+
+}
